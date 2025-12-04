@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+p {
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.from, .to {
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+
+.from {
+    margin-right: 15px;
+}
+
+.to {
+    margin-left: 15px;
+}
+
+.from label, .to label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin: 8px 0;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+.fa-arrow-right-arrow-left {
+    font-size: 24px;
+    color: #2c3e50;
+    margin: 10px 0;
+}
+
+.from::before, .to::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+ body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+/*
+form {
+  flex-grow: 1;
+}
+*/  
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  padding: 10px;
+  background: #f1f1f1;
+} 
